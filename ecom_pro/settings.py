@@ -116,8 +116,8 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
-
-STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_URL = 'staticfiles/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
@@ -137,3 +137,4 @@ MEDIA_URL = '/media/'
 # https://dashboard.razorpay.com/?screen=sign_in_mobile
 RAZOR_KEY_ID = "rzp_test_sjMqqx2wujB2ks"	
 RAZOR_KEY_SECRET = "5UEQSucwVIGkY1lVM4iz7E33"
+
